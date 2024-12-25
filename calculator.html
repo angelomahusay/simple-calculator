@@ -1,39 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <link rel="stylesheet" href="./src/styles/calculator.css" />
-  </head>
-  <body>
-    <div id="calculator">
-      <input type="text" id="result" disabled placeholder="0" />
-      <button onclick="clearDisplay()">AC</button>
-      <button onclick="toggleSign()">+/-</button>
-      <button onclick="percent()">%</button>
-      <button class="operator" onclick="appendToDisplay('/')">÷</button>
 
-      <button onclick="appendToDisplay('7')">7</button>
-      <button onclick="appendToDisplay('8')">8</button>
-      <button onclick="appendToDisplay('9')">9</button>
-      <button class="operator" onclick="appendToDisplay('*')">×</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="./src/styles/calculator.css" />
+</head>
 
-      <button onclick="appendToDisplay('4')">4</button>
-      <button onclick="appendToDisplay('5')">5</button>
-      <button onclick="appendToDisplay('6')">6</button>
-      <button class="operator" onclick="appendToDisplay('-')">−</button>
+<body>
+  <div id="calculator">
+    <input type="text" id="result" disabled placeholder="0" />
+    <button onclick="clearDisplay()">AC</button>
+    <button onclick="toggleSign()">+/-</button>
+    <button onclick="percent()">%</button>
+    <button class="operator" onclick="appendToDisplay('/')">÷</button>
 
-      <button onclick="appendToDisplay('1')">1</button>
-      <button onclick="appendToDisplay('2')">2</button>
-      <button onclick="appendToDisplay('3')">3</button>
-      <button class="operator" onclick="appendToDisplay('+')">+</button>
+    <button onclick="appendToDisplay('7')">7</button>
+    <button onclick="appendToDisplay('8')">8</button>
+    <button onclick="appendToDisplay('9')">9</button>
+    <button class="operator" onclick="appendToDisplay('*')">×</button>
 
-      <button class="zero" onclick="appendToDisplay('0')">0</button>
-      <button onclick="appendToDisplay('.')">.</button>
-      <button class="operator" onclick="calculate()">=</button>
-    </div>
+    <button onclick="appendToDisplay('4')">4</button>
+    <button onclick="appendToDisplay('5')">5</button>
+    <button onclick="appendToDisplay('6')">6</button>
+    <button class="operator" onclick="appendToDisplay('-')">−</button>
 
-    <script src="./src/calculator.js"></script>
-  </body>
+    <button onclick="appendToDisplay('1')">1</button>
+    <button onclick="appendToDisplay('2')">2</button>
+    <button onclick="appendToDisplay('3')">3</button>
+    <button class="operator" onclick="appendToDisplay('+')">+</button>
+
+    <button class="zero" onclick="appendToDisplay('0')">0</button>
+    <button onclick="appendToDisplay('.')">.</button>
+    <button class="operator" onclick="calculate()">=</button>
+  </div>
+
+  <script src="./src/calculator.js"></script>
+</body>
+
 </html>
