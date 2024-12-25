@@ -2,7 +2,7 @@
  
 ![Description of Image](./src/images/calc.png)
  
-  <h2>Description💫</h2>
+  <h2>Descriptions💫</h2>
   
  * This project implements a basic calculator using HTML, CSS, and JavaScript. 
  * The calculator allows users to perform arithmetic operations including addition, subtraction, multiplication, and division.
