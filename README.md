@@ -1,6 +1,6 @@
 <h1>Simple Calculator➗</h1>
  
-![Description of Image](./src/images/calculator.png)
+![Description of Image](./src/images/calc.png)
  
   <h2>Description💫</h2>
   
