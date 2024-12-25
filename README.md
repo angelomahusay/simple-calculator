@@ -27,3 +27,4 @@
    <h2> Note‼️</h2>
    
  * This project serves as a simple example of DOM manipulation and event handling in JavaScript
+# simple-calculator
