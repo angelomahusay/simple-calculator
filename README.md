@@ -1,4 +1,4 @@
-<h1>Simple Calculator Project➗</h1>
+<h1>Simple Calculator➗</h1>
  
 ![Description of Image](./src/images/calculator.png)
  
